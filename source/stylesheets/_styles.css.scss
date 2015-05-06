@@ -1,0 +1,145 @@
+html{
+  overflow-x: hidden;
+}
+body{
+  background: url(https://s3.amazonaws.com/myfangate.com/cncctour/repeat-paper.jpg);
+  background-repeat: repeat;
+  overflow-x: hidden;
+
+}
+.mauto{
+  margin: 0 auto;
+}
+.transp{
+  opacity: 0.9;
+}
+.highlighter{
+  background: url(https://s3.amazonaws.com/myfangate.com/cncctour/highlighter.png);
+  // background-color: #cec432;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+.highlighter-text{
+  padding-top: 22px;
+    -ms-transform: rotate(-1deg); /* IE 9 */
+  -webkit-transform: rotate(-1deg); /* Chrome, Safari, Opera */
+  transform: rotate(-1deg);
+}
+#header{
+  background-image: url(https://s3.amazonaws.com/myfangate.com/cncctour/header-background.jpg);
+  background-size: cover;
+  overflow-x: hidden;
+}
+.tear{
+  height: 154px;
+  background-image: url(https://s3.amazonaws.com/myfangate.com/cncctour/tear.png);
+  background-repeat: repeat-x;
+  width: 100%;
+}
+.support img{
+  max-height: 180px !important;
+}
+.cncc-logo{
+  max-width: 500px;
+}
+.divider{
+  height: 2px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: $brown;
+}
+#contest{
+  margin: 20px auto;
+}
+// Shadow Classes
+
+.shadowed {
+    -webkit-filter: drop-shadow(0px -20px 25px rgba(0,0,0,0.5));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+.shadowed-w {
+    -webkit-filter: drop-shadow(0px 0px 5px rgb(255,255,255));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+.text-shadow{
+  text-shadow: 0px 0px 10px rgba(255,255,255,0.9);
+}
+.yellow-shadow{
+  text-shadow: 0px 0px 10px rgba(206,196,50,0.9);
+}
+
+// media queries
+@media (max-width: 548px){
+  #header{
+    background-position-x: -700px;
+  }
+  .cncclogo{
+    max-width: 250px;
+  }
+  .highlighter-text{
+    h1{
+      font-size: 35px !important;
+    }
+  }
+}
+@media (max-width: 485px){
+  .highlighter-text{
+    h1{
+      font-size: 20px !important;
+    }
+  }
+}
+
+// Nav tweaks
+
+.navbar{
+  margin-bottom: 0 !important;
+  background-color: $brown;
+  border: none;
+  border-radius: 0px;
+  .container-fluid{
+    h2{
+      font-size: 14px !important;
+      color: white !important;
+    }
+  }
+}
+
+// contest tweaks
+
+#contest-wrapper .ss-form input {
+  width: 100%;
+}
+
+//TOURDATES//
+
+#dates{
+  h1{
+
+  }
+  ul{
+    padding: 0 10px 0 10px
+  }
+  li{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom:1px solid $brown;
+    div{
+      height: 40px;
+    }
+    .date{
+      color: $brown;
+      float: left;
+      padding: 6px 12px;
+    }
+    .ticket{
+      float: right;
+    }
+  }
+}

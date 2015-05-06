@@ -1,0 +1,71 @@
+.dcsns-toolbar{
+  display: none;
+}
+.stream li{
+  background-color: rgba(0,0,0,0);
+  color: white;
+  box-shadow: none;
+  border: 2px solid $brown;
+  border-radius: 4px;
+}
+.section-intro{
+  background-color: $brown !important;
+}
+.stream li .inner {
+  color: $brown;
+  a{
+    color: $brown;
+  }
+  span{
+    color: $brown;
+  }
+}
+
+@media (max-width: 1200px) {
+  .dcsns-content {
+    margin-left: 125px;
+    max-width: 940px;
+  }
+}
+@media (max-width: 768px) {
+  .dcsns-content {
+    margin-left: 110px;
+    max-width: 940px;
+  }
+}
+@media (max-width: 680px) {
+  .dcsns-content {
+    margin-left: 100px;
+    max-width: 940px;
+  }
+}
+@media (max-width: 660px) {
+  .dcsns-content {
+    margin-left: 80px;
+    max-width: 940px;
+  }
+}
+@media (max-width: 600px) {
+  .dcsns-content {
+    margin-left: 60px;
+    max-width: 940px;
+  }
+}
+@media (max-width: 560px) {
+  .dcsns-content {
+    margin-left: 125px;
+    max-width: 940px;
+  }
+}
+@media (max-width: 480px) {
+  .dcsns-content {
+    margin-left: 100px;
+    max-width: 940px;
+  }
+}
+@media (max-width: 440px) {
+  .dcsns-content {
+    margin-left: 80px;
+    max-width: 940px;
+  }
+}
